@@ -14,10 +14,13 @@
    flex-direction: column;
    justify-content: center;
    align-items: center;
-   background-color: hsl(0, 0%, 95%);
    flex-wrap: nowrap;
    padding: 30px;
    height: 700px;
+}
+
+body {
+   background-color: hsl(0, 0%, 95%);
 }
 
 .attribution .devs {
@@ -220,7 +223,7 @@ button:hover {
 }
 
 
-/* MEDIA QUERY */
+/* MEDIA QUERIES */
 @media(max-width: 375px) {
    .container {
       display: flex;
